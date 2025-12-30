@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "name": "Pedigree Adult Dry Dog Food - Chicken & Vegetables",
+        "price": 2899,
+        "category": "dog",
+        "image": "https://images.unsplash.com/photo-1589924691195-41432c84c161?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.8,
+        "reviews": 3240,
+        "description": "Complete and balanced meal for adult dogs. Contains essential nutrients for healthy skin and coat.",
+        "tags": [
+            "Best Seller"
+        ],
+        "brand": "Pedigree"
+    },
+    {
+        "id": 2,
+        "name": "Whiskas Adult Dry Cat Food - Ocean Fish",
+        "price": 440,
+        "category": "cat",
+        "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.6,
+        "reviews": 1890,
+        "description": "Crunchy chunks packed with real fish flavor. Provides 41 essential nutrients for cats.",
+        "tags": [
+            "Best Seller"
+        ],
+        "brand": "Whiskas"
+    },
+    {
+        "id": 3,
+        "name": "Royal Canin Mini Adult",
+        "price": 850,
+        "category": "dog",
+        "image": "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.9,
+        "reviews": 560,
+        "description": "Tailor-made nutrition for small breed dogs. Supports energy needs and maintains ideal weight.",
+        "tags": [
+            "Premium"
+        ],
+        "brand": "Royal Canin"
+    },
+    {
+        "id": 4,
+        "name": "Drools Chicken and Egg Adult Dog Food",
+        "price": 699,
+        "category": "dog",
+        "image": "https://images.unsplash.com/photo-1608408843596-b311965b7237?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.5,
+        "reviews": 4500,
+        "description": "Real chicken and egg formula for muscle maintenance and good digestion.",
+        "tags": [
+            "Best Value"
+        ],
+        "brand": "Drools"
+    },
+    {
+        "id": 5,
+        "name": "Meat Up Calcium Chicken Bone",
+        "price": 299,
+        "category": "dog",
+        "image": "https://images.unsplash.com/photo-1582798358481-d199fb7347bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.3,
+        "reviews": 1200,
+        "description": "Delicious calcium bones for strong teeth and gums.",
+        "tags": [
+            "Treats"
+        ],
+        "brand": "Meat Up"
+    },
+    {
+        "id": 6,
+        "name": "Sheba Rich Premium Cat Food - Fish Mix",
+        "price": 60,
+        "category": "cat",
+        "image": "https://images.unsplash.com/photo-1623366302587-bca852d60563?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.7,
+        "reviews": 850,
+        "description": "Delicate fish slices in gravy. A gourmet experience for your feline.",
+        "tags": [
+            "Premium"
+        ],
+        "brand": "Sheba"
+    },
+    {
+        "id": 7,
+        "name": "Boltz Bird Food for Budgies",
+        "price": 399,
+        "category": "bird",
+        "image": "https://images.unsplash.com/photo-1628190772091-c9eb13303666?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.4,
+        "reviews": 320,
+        "description": "Selected seeds mix for budgies. Promotes healthy feathers and digestion.",
+        "tags": [],
+        "brand": "Boltz"
+    },
+    {
+        "id": 8,
+        "name": "Bark Butler x Fofos Dog Toy",
+        "price": 495,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.6,
+        "reviews": 150,
+        "description": "Durable plush toy with squeaker. Perfect for light chewers.",
+        "tags": [
+            "New"
+        ],
+        "brand": "Bark Butler"
+    },
+    {
+        "id": 9,
+        "name": "Himalaya Healthy Pet Food - Puppy",
+        "price": 420,
+        "category": "dog",
+        "image": "https://images.unsplash.com/photo-1597843786271-105126d00ade?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.5,
+        "reviews": 2100,
+        "description": "Ayurvedic formula for growing puppies. Supports immunity and metabolism.",
+        "tags": [],
+        "brand": "Himalaya"
+    },
+    {
+        "id": 10,
+        "name": "Purepet Mackerel Cat Food",
+        "price": 299,
+        "category": "cat",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.2,
+        "reviews": 980,
+        "description": "Economical complete meal for cats. Mackerel flavor.",
+        "tags": [
+            "Best Value"
+        ],
+        "brand": "Purepet"
+    },
+    {
+        "id": 11,
+        "name": "Generic Metal Dog Bowl",
+        "price": 199,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1585839077797-1755152a5583?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.1,
+        "reviews": 500,
+        "description": "Stainless steel non-tip food bowl.",
+        "tags": [],
+        "brand": "Generic"
+    },
+    {
+        "id": 12,
+        "name": "Farmina N&D Pumpkin Dog Food",
+        "price": 2400,
+        "category": "dog",
+        "image": "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.9,
+        "reviews": 120,
+        "description": "Grain-free premium nutrition with Lamb & Blueberry.",
+        "tags": [
+            "Premium"
+        ],
+        "brand": "Farmina"
+    }
+]
