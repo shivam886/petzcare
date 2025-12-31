@@ -1,73 +1,83 @@
 [
     {
         "id": 1,
-        "name": "Meowsi by HUFT Chicken Mousse Kitten Wet Food",
-        "price": 99,
-        "category": "cat",
-        "image": "https://headsupfortails.com/cdn/shop/files/2_2_996630d5-a59b-4ea9-bd95-82290aa03dd8.jpg?v=1757396542&width=533",
+        "name": "Sara's Wholesome Classic Chicken And Brown Rice Dog Food",
+        "price": 94,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/Sara_sWholesome-Chicken_Rice1copy_96951662-ee6e-4fa8-b889-70f5d7e924d7.jpg?v=1757397560&width=533",
         "rating": 4.8,
         "reviews": 120,
-        "description": "Delicious chicken mousse for kittens. High protein for growth.",
+        "description": "Wholesome chicken and brown rice meal for dogs.",
+        "isNew": false,
         "tags": [
-            "New",
-            "Best Seller"
-        ],
-        "brand": "HUFT"
+            "food",
+            "health",
+            "dog"
+        ]
     },
     {
         "id": 2,
-        "name": "NutriMeow Tuna In Jelly Wet Food For Kitten",
-        "price": 65,
-        "category": "cat",
-        "image": "https://headsupfortails.com/cdn/shop/files/TunaInJellyKitten.jpg?v=1757396306&width=533",
-        "rating": 4.5,
-        "reviews": 85,
-        "description": "Tuna in jelly wet food, rich in Omega 3 and 6.",
-        "tags": [],
-        "brand": "NutriMeow"
+        "name": "Royal Canin Maxi Adult Dry Dog Food",
+        "price": 924,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/FOP_copy_3df1f43e-bd7d-4d39-80e6-eb02a2bb44a2.jpg?v=1766555395&width=533",
+        "rating": 4.9,
+        "reviews": 350,
+        "description": "Complete dry food for large breed adult dogs.",
+        "isNew": false,
+        "tags": [
+            "food",
+            "health",
+            "dog"
+        ]
     },
     {
         "id": 3,
-        "name": "Whiskas Adult Mackerel Flavour Dry Cat Food",
-        "price": 1853,
-        "category": "cat",
-        "image": "https://headsupfortails.com/cdn/shop/files/8853301002400_2.jpg?v=1757399307&width=533",
-        "rating": 4.7,
-        "reviews": 3200,
-        "description": "Complete nutrition for adult cats with real mackerel functionality.",
+        "name": "Pedigree Chicken & Vegetables Dry Food For Adult Dog",
+        "price": 100,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/8906002482900.jpg?v=1766733649&width=533",
+        "rating": 4.5,
+        "reviews": 500,
+        "description": "Classic chicken and vegetable recipe for adult dogs.",
+        "isNew": false,
         "tags": [
-            "Best Value"
-        ],
-        "brand": "Whiskas"
+            "food",
+            "dog"
+        ]
     },
     {
         "id": 4,
-        "name": "Sheba Rich Premium Tuna Pumpkin & Carrot In Gravy",
-        "price": 280,
-        "category": "cat",
-        "image": "https://headsupfortails.com/cdn/shop/files/8853301003223_1.jpg?v=1757398451&width=533",
-        "rating": 4.9,
-        "reviews": 450,
-        "description": "Gourmet fine flakes of tuna with pumpkin and carrot.",
-        "tags": [
-            "Premium"
-        ],
-        "brand": "Sheba"
-    },
-    {
-        "id": 5,
         "name": "Hearty Chicken, Duck & Pumpkin Oven-Baked Dry Food",
         "price": 250,
         "category": "dog",
         "image": "https://headsupfortails.com/cdn/shop/files/250g_1_01bc9327-7a06-4885-8976-f808398198dc.jpg?v=1765955037&width=533",
-        "rating": 4.8,
-        "reviews": 150,
-        "description": "Oven-baked for better nutrient retention. Grain-free goodness.",
+        "rating": 4.7,
+        "reviews": 85,
+        "description": "Oven-baked goodness with chicken, duck, and pumpkin.",
+        "isNew": true,
         "tags": [
-            "Grain Free",
-            "HUFT Exclusive"
-        ],
-        "brand": "Hearty"
+            "food",
+            "premium",
+            "dog"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Farmina N&D Pumpkin Lamb & Blueberry Grain Free",
+        "price": 2833,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/products/FARMIN_1_c7b574eb-2237-4848-b320-c73e5f6e53d2.jpg?v=1757404206&width=533",
+        "rating": 5.0,
+        "reviews": 42,
+        "description": "Grain-free premium nutrition with lamb and blueberry.",
+        "isNew": false,
+        "tags": [
+            "food",
+            "premium",
+            "grain-free",
+            "dog"
+        ]
     },
     {
         "id": 6,
@@ -75,186 +85,493 @@
         "price": 699,
         "category": "dog",
         "image": "https://headsupfortails.com/cdn/shop/files/064992182175-5.jpg?v=1705915421&width=533",
-        "rating": 5.0,
-        "reviews": 980,
-        "description": "Biologically appropriate food with free-run chicken and turkey.",
+        "rating": 4.9,
+        "reviews": 110,
+        "description": "Biologically appropriate food for all breeds and ages.",
+        "isNew": false,
         "tags": [
-            "Ultra Premium"
-        ],
-        "brand": "Orijen"
+            "food",
+            "premium",
+            "dog"
+        ]
     },
     {
         "id": 7,
-        "name": "NutriWag Pro Active Chicken & Vegetable (20 kg)",
-        "price": 5795,
-        "category": "dog",
-        "image": "https://headsupfortails.com/cdn/shop/files/Nutriwagpro-1copy.jpg?v=1762256256&width=533",
-        "rating": 4.6,
-        "reviews": 210,
-        "description": "High energy formula for active dogs. Bulk pack value.",
+        "name": "Meowsi by HUFT Chicken Mousse Kitten Wet Food",
+        "price": 99,
+        "category": "cat",
+        "image": "https://headsupfortails.com/cdn/shop/files/2_2_996630d5-a59b-4ea9-bd95-82290aa03dd8.jpg?v=1757396542&width=533",
+        "rating": 4.8,
+        "reviews": 65,
+        "description": "Delicate chicken mousse for kittens.",
+        "isNew": true,
         "tags": [
-            "Bulk"
-        ],
-        "brand": "NutriWag"
+            "food",
+            "cat",
+            "kitten"
+        ]
     },
     {
         "id": 8,
-        "name": "Hearty Lamb & Blueberry Oven-Baked Adult Dog Food",
-        "price": 270,
-        "category": "dog",
-        "image": "https://headsupfortails.com/cdn/shop/files/250g_1_6019050e-f908-402b-9d4b-c25ab9d3d187.jpg?v=1757396496&width=533",
+        "name": "Royal Canin Instinctive Wet Cat Food",
+        "price": 114,
+        "category": "cat",
+        "image": "https://headsupfortails.com/cdn/shop/products/InstinctiveGravy-1.webp?v=1743273473&width=533",
         "rating": 4.7,
-        "reviews": 180,
-        "description": "Novel protein source with antioxidant-rich blueberries.",
-        "tags": [],
-        "brand": "Hearty"
+        "reviews": 200,
+        "description": "Instinctively preferred wet food for adult cats.",
+        "isNew": false,
+        "tags": [
+            "food",
+            "cat"
+        ]
     },
     {
         "id": 9,
-        "name": "Sara's Wholesome Dehydrated Chicken Dog Treats",
-        "price": 350,
-        "category": "dog",
-        "image": "https://headsupfortails.com/cdn/shop/products/ChickenJerky_Front.jpg?v=1646983754&width=533",
-        "rating": 4.9,
-        "reviews": 2500,
-        "description": "100% natural dehydrated chicken jerky. No preservatives.",
+        "name": "Royal Canin Fit 32 Adult Dry Cat Food",
+        "price": 360,
+        "category": "cat",
+        "image": "https://headsupfortails.com/cdn/shop/files/FOPcopy_07006f10-6717-4d0b-838a-351a499acb72.jpg?v=1766568869&width=533",
+        "rating": 4.6,
+        "reviews": 320,
+        "description": "Balanced nutrition for active adult cats.",
+        "isNew": false,
         "tags": [
-            "Treats",
-            "Natural"
-        ],
-        "brand": "Sara's Treats"
+            "food",
+            "cat"
+        ]
     },
     {
         "id": 10,
-        "name": "HUFT Orthopedic Dog Bed",
-        "price": 4500,
-        "category": "accessories",
-        "image": "https://headsupfortails.com/cdn/shop/products/OrthopedicBedGrey.jpg?v=1624607891&width=533",
-        "rating": 4.8,
-        "reviews": 340,
-        "description": "Memory foam support for senior dogs or those with joint issues.",
+        "name": "NutriMeow Tuna In Jelly Wet Food For Kitten",
+        "price": 65,
+        "category": "cat",
+        "image": "https://headsupfortails.com/cdn/shop/files/TunaInJellyKitten.jpg?v=1757396306&width=533",
+        "rating": 4.5,
+        "reviews": 40,
+        "description": "Tasty tuna in jelly for kittens.",
+        "isNew": false,
         "tags": [
-            "Comfort"
-        ],
-        "brand": "HUFT"
+            "food",
+            "cat",
+            "kitten"
+        ]
     },
     {
         "id": 11,
-        "name": "HUFT Snuggle Up Dog Blanket - Navy Blue",
-        "price": 1499,
-        "category": "dog",
-        "image": "https://headsupfortails.com/cdn/shop/files/NavyBlueBlanket.jpg?v=1700000001&width=533",
+        "name": "Farmina N&D Lamb & Blueberry Grain Free Cat Food",
+        "price": 836,
+        "category": "cat",
+        "image": "https://headsupfortails.com/cdn/shop/files/FarminaN_DLamb_BlueberryGrainFreeAdultDryCatFood.jpg?v=1757404226&width=533",
         "rating": 4.9,
-        "reviews": 89,
-        "description": "Ultra-soft fleece blanket to keep your pet warm during winter.",
+        "reviews": 28,
+        "description": "High-quality grain-free diet for adult cats.",
+        "isNew": true,
         "tags": [
-            "Winter",
-            "Comfort"
-        ],
-        "brand": "HUFT"
+            "food",
+            "cat",
+            "premium"
+        ]
     },
     {
         "id": 12,
-        "name": "HUFT Reversible Winter Dog Jacket - Red",
-        "price": 2499,
-        "category": "dog",
-        "image": "https://headsupfortails.com/cdn/shop/files/ReversibleJacketRed.jpg?v=1700000002&width=533",
-        "rating": 5.0,
-        "reviews": 156,
-        "description": "Stylish and warm reversible jacket for chilly walks.",
+        "name": "NutriMeow Chicken In Gravy Wet Food For Adult Cat",
+        "price": 65,
+        "category": "cat",
+        "image": "https://headsupfortails.com/cdn/shop/files/ChickenInGravyAdult.jpg?v=1757396326&width=533",
+        "rating": 4.4,
+        "reviews": 90,
+        "description": "Succulent chicken in gravy for adult cats.",
+        "isNew": false,
         "tags": [
-            "Winter",
-            "Apparel"
-        ],
-        "brand": "HUFT"
+            "food",
+            "cat"
+        ]
     },
     {
         "id": 13,
-        "name": "YIMT Dental Chews for Dogs (Pack of 7)",
-        "price": 399,
+        "name": "HUFT Holiday Gift Of Joy Box For Dog",
+        "price": 479,
         "category": "dog",
-        "image": "https://headsupfortails.com/cdn/shop/files/DentalChews.jpg?v=1700000003&width=533",
-        "rating": 4.6,
-        "reviews": 430,
-        "description": "Daily specialty dental chews to reduce tartar and freshen breath.",
+        "image": "https://headsupfortails.com/cdn/shop/files/DSC_2533copy.jpg?v=1764336472&width=533",
+        "rating": 5.0,
+        "reviews": 15,
+        "description": "perfect holiday gift box for your furry friend.",
+        "isNew": true,
         "tags": [
-            "Dental Care",
-            "Treats"
-        ],
-        "brand": "YIMT"
+            "treats",
+            "dog",
+            "gift"
+        ]
     },
     {
         "id": 14,
-        "name": "Sara's Soft & Chewy Chicken Treats",
-        "price": 450,
+        "name": "HUFT YIMT Chicken & Cranberry Biscuits",
+        "price": 225,
         "category": "dog",
-        "image": "https://headsupfortails.com/cdn/shop/files/SoftChewsChicken.jpg?v=1700000004&width=533",
-        "rating": 4.8,
-        "reviews": 600,
-        "description": "Perfect training treats, soft on the gums and delicious.",
+        "image": "https://headsupfortails.com/cdn/shop/files/DSC_2044_1_copy.jpg?v=1764077111&width=533",
+        "rating": 4.7,
+        "reviews": 130,
+        "description": "Yummy in my tummy chicken and cranberry biscuits.",
+        "isNew": false,
         "tags": [
-            "Treats",
-            "Training"
-        ],
-        "brand": "Sara's Treats"
+            "treats",
+            "dog",
+            "snack"
+        ]
     },
     {
         "id": 15,
-        "name": "Whiskas Wet Cat Food - Ocean Fish (Pack of 12)",
-        "price": 600,
-        "category": "cat",
-        "image": "https://headsupfortails.com/cdn/shop/files/WhiskasWetFood.jpg?v=1700000005&width=533",
-        "rating": 4.7,
-        "reviews": 890,
-        "description": "Complete and balanced wet food with ocean fish flavor.",
+        "name": "Sara's Doggie Treats - Dehydrated Lamb Jerky",
+        "price": 484,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/Sara_s_Treat_Lamb_Jerky_1_4_bb2018d1-09a3-436e-bf33-1947291d8879.jpg?v=1757396427&width=533",
+        "rating": 4.9,
+        "reviews": 210,
+        "description": "Natural dehydrated lamb jerky treats.",
+        "isNew": false,
         "tags": [
-            "Wet Food",
-            "Bulk"
-        ],
-        "brand": "Whiskas"
+            "treats",
+            "dog",
+            "natural"
+        ]
     },
     {
         "id": 16,
-        "name": "HUFT Nylon Dog Collar - Geometric Print",
-        "price": 799,
-        "category": "accessories",
-        "image": "https://headsupfortails.com/cdn/shop/files/NylonCollarGeo.jpg?v=1700000006&width=533",
-        "rating": 4.5,
-        "reviews": 120,
-        "description": "Durable and stylish nylon collar, adjustable for perfect fit.",
+        "name": "HUFT Yakies Vegetarian Natural Chew Bone",
+        "price": 129,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/HUFTYakiesVegetarianNaturalChewBone_1.jpg?v=1757399446&width=533",
+        "rating": 4.6,
+        "reviews": 400,
+        "description": "Long-lasting vegetarian chew bone.",
+        "isNew": false,
         "tags": [
-            "Walk Gear"
-        ],
-        "brand": "HUFT"
+            "treats",
+            "dog",
+            "chew"
+        ]
     },
     {
         "id": 17,
-        "name": "HUFT Strong Rope Leash - Teal",
-        "price": 1299,
-        "category": "accessories",
-        "image": "https://headsupfortails.com/cdn/shop/files/RopeLeashTeal.jpg?v=1700000007&width=533",
-        "rating": 4.9,
-        "reviews": 75,
-        "description": "Heavy-duty rope leash for strong grip and control.",
+        "name": "HUFT Yum Nums Soft & Chewy Sticks Strawberry",
+        "price": 199,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/YUMNUMSStrawberryWithIngredient_138f8ba5-d091-452d-963f-c0db03043dc1.jpg?v=1757397762&width=533",
+        "rating": 4.3,
+        "reviews": 55,
+        "description": "Soft strawberry flavored sticks with real chicken.",
+        "isNew": false,
         "tags": [
-            "Walk Gear",
-            "Durable"
-        ],
-        "brand": "HUFT"
+            "treats",
+            "dog",
+            "soft"
+        ]
     },
     {
         "id": 18,
-        "name": "Royal Canin Mini Adult Dry Dog Food",
-        "price": 2100,
+        "name": "HUFT Natural Chews - Dehydrated Chicken Wings",
+        "price": 241,
         "category": "dog",
-        "image": "https://headsupfortails.com/cdn/shop/files/RoyalCaninMini.jpg?v=1700000008&width=533",
+        "image": "https://headsupfortails.com/cdn/shop/files/DSC_1496_2.jpg?v=1757397187&width=533",
         "rating": 4.8,
-        "reviews": 2200,
-        "description": "Tailored nutrition for small breed adult dogs.",
+        "reviews": 180,
+        "description": "Crunchy dehydrated chicken wings.",
+        "isNew": false,
         "tags": [
-            "Best Seller",
-            "Premium"
-        ],
-        "brand": "Royal Canin"
+            "treats",
+            "dog",
+            "natural"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "HUFT Polka Play Collar For Dog - Red",
+        "price": 399,
+        "category": "accessories",
+        "image": "https://headsupfortails.com/cdn/shop/files/HUFTCLH0455_6.jpg?v=1764745177&width=533",
+        "rating": 4.8,
+        "reviews": 60,
+        "description": "Stylish red polka dot collar.",
+        "isNew": true,
+        "tags": [
+            "accessories",
+            "dog",
+            "walk"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "HUFT Polka Play Leash For Dog - Red",
+        "price": 1099,
+        "category": "accessories",
+        "image": "https://headsupfortails.com/cdn/shop/files/HUFTCLH0456_3.jpg?v=1764746706&width=533",
+        "rating": 4.8,
+        "reviews": 45,
+        "description": "Matching red polka dot leash.",
+        "isNew": true,
+        "tags": [
+            "accessories",
+            "dog",
+            "walk"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "HUFT Polka Play Adjustable Harness For Dog - Red",
+        "price": 1199,
+        "category": "accessories",
+        "image": "https://headsupfortails.com/cdn/shop/files/DSC_2334.jpg?v=1764748009&width=533",
+        "rating": 4.9,
+        "reviews": 30,
+        "description": "Comfortable adjustable harness in red polka dot.",
+        "isNew": true,
+        "tags": [
+            "accessories",
+            "dog",
+            "walk"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "HUFT Classic Collar For Dog - Ocean Blue",
+        "price": 249,
+        "category": "accessories",
+        "image": "https://headsupfortails.com/cdn/shop/files/DSC_8771.jpg?v=1757401288&width=533",
+        "rating": 4.5,
+        "reviews": 120,
+        "description": "Classic durable collar in ocean blue.",
+        "isNew": false,
+        "tags": [
+            "accessories",
+            "dog",
+            "walk"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "HUFT Walkmate Harness For Dog - Teal Green",
+        "price": 2099,
+        "category": "accessories",
+        "image": "https://headsupfortails.com/cdn/shop/files/DSC_0643_855e2ec1-688a-4959-8fff-9fab84f83969.jpg?v=1763448517&width=533",
+        "rating": 4.7,
+        "reviews": 88,
+        "description": "Premium walkmate harness for secure walks.",
+        "isNew": false,
+        "tags": [
+            "accessories",
+            "dog",
+            "walk"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "HUFT Classic Leash For Dog - Ocean Blue",
+        "price": 499,
+        "category": "accessories",
+        "image": "https://headsupfortails.com/cdn/shop/files/Blue3.jpg?v=1757401279&width=533",
+        "rating": 4.6,
+        "reviews": 95,
+        "description": "Strong ocean blue leash associated with classic collar.",
+        "isNew": false,
+        "tags": [
+            "accessories",
+            "dog",
+            "walk"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "TLC Dotted Textured Ball Squeaky Chew Toy",
+        "price": 199,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/DSC_3761copy.jpg?v=1757402101&width=533",
+        "rating": 4.4,
+        "reviews": 150,
+        "description": "Textured squeaky ball for endless fun.",
+        "isNew": false,
+        "tags": [
+            "toys",
+            "dog",
+            "play"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "HUFT Hoop-De-Loop Rope Toy",
+        "price": 999,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/HUFTTY1086_5.jpg?v=1765284882&width=533",
+        "rating": 4.8,
+        "reviews": 40,
+        "description": "Durable rope toy for tug of war.",
+        "isNew": true,
+        "tags": [
+            "toys",
+            "dog",
+            "rope"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "HUFT Miss Chicklet Squeaky Plush Toy",
+        "price": 599,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/DSC_6947copy.jpg?v=1765531567&width=533",
+        "rating": 4.7,
+        "reviews": 75,
+        "description": "Soft and squeaky plush chick toy.",
+        "isNew": true,
+        "tags": [
+            "toys",
+            "dog",
+            "plush"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "HUFT Sunny Bunny Mini Plush Toy",
+        "price": 399,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/HUFTTY1056-1.jpg?v=1761990377&width=533",
+        "rating": 4.5,
+        "reviews": 110,
+        "description": "Cute mini bunny plush for small dogs.",
+        "isNew": false,
+        "tags": [
+            "toys",
+            "dog",
+            "plush"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "HUFT Chewtastic CrossBone Chew Toy",
+        "price": 699,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/DSC_6909copy.jpg?v=1765888272&width=533",
+        "rating": 4.6,
+        "reviews": 60,
+        "description": "Tough crossbone toy for tough chewers.",
+        "isNew": false,
+        "tags": [
+            "toys",
+            "dog",
+            "tough"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "HUFT Hugs & Hops Frog Plush Toy",
+        "price": 799,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/HUFTTY1129_2_copy.jpg?v=1765370838&width=533",
+        "rating": 4.9,
+        "reviews": 25,
+        "description": "Adorable frog plush with extra hugs.",
+        "isNew": true,
+        "tags": [
+            "toys",
+            "dog",
+            "plush"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Dash Dog Swift Strides Puffer Jacket",
+        "price": 2099,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/Dash_Dog_Swift_Strides_Puffer_Jacket_For_Dog_-_Purple_Pink.jpg?v=1763470921&width=533",
+        "rating": 4.9,
+        "reviews": 50,
+        "description": "Warm and stylish puffer jacket for winters.",
+        "isNew": true,
+        "tags": [
+            "winter",
+            "clothing",
+            "dog"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "HUFT Cosy Pupper Reversible Dog Jacket",
+        "price": 1499,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/HUFT_Cosy_Pupper_Reversible_Dog_Jacket_-_Lime_Green.jpg?v=1763471015&width=533",
+        "rating": 4.8,
+        "reviews": 80,
+        "description": "Reversible jacket for double the style.",
+        "isNew": false,
+        "tags": [
+            "winter",
+            "clothing",
+            "dog"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "The Indian Collective Ambar Indigo Dog Jacket",
+        "price": 1649,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/HUFT_The_Indian_Collective_Ambar_Indigo_Dog_Jacket.jpg?v=1763471230&width=533",
+        "rating": 5.0,
+        "reviews": 35,
+        "description": "Traditional indigo print jacket.",
+        "isNew": true,
+        "tags": [
+            "winter",
+            "clothing",
+            "dog",
+            "ethnic"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Dash Dog Outdoor Dog Jacket - Violet & Red",
+        "price": 1349,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/DSDGFC002.jpg?v=1757403899&width=533",
+        "rating": 4.6,
+        "reviews": 70,
+        "description": "Sporty outdoor jacket for active dogs.",
+        "isNew": false,
+        "tags": [
+            "winter",
+            "clothing",
+            "dog"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "The Indian Collective Tara Sitara Indigo Jacket",
+        "price": 1649,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/HUFT_The_Indian_Collective_Tara_Sitara_Indigo_Dog_Jacket.jpg?v=1763471334&width=533",
+        "rating": 4.9,
+        "reviews": 40,
+        "description": "Beautiful ethnic print winter wear.",
+        "isNew": true,
+        "tags": [
+            "winter",
+            "clothing",
+            "dog",
+            "ethnic"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Dash Dog Outbounders Puffer Jacket - Red & Blue",
+        "price": 1799,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/DSC_7180.jpg?v=1757402953&width=533",
+        "rating": 4.7,
+        "reviews": 55,
+        "description": "Durable puffer jacket for outdoor adventures.",
+        "isNew": false,
+        "tags": [
+            "winter",
+            "clothing",
+            "dog"
+        ]
     }
 ]

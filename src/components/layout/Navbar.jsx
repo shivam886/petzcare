@@ -11,8 +11,8 @@ const Navbar = () => {
     return (
         <nav className="bg-white shadow-sm sticky top-0 z-50 py-3">
             <div className="container mx-auto px-4 flex justify-between items-center">
-                <Link to="/" className="flex items-center gap-2 group">
-                    <span className="text-2xl font-bold text-primary font-sans group-hover:text-green-600 transition-colors">PetzCare</span>
+                <Link to="/" className="flex items-center gap-2">
+                    <img src="/src/assets/petzkare-logo.png" alt="PetzKare Logo" className="h-10 w-auto" />
                 </Link>
 
                 {/* Desktop Nav */}

@@ -8,7 +8,7 @@ export const useShop = () => useContext(ShopContext);
 export const ShopProvider = ({ children }) => {
     const [cart, setCart] = useState(() => {
         try {
-            const saved = localStorage.getItem('petzcare_cart');
+            const saved = localStorage.getItem('petzkare_cart');
             return saved ? JSON.parse(saved) : [];
         } catch {
             return [];
@@ -20,7 +20,7 @@ export const ShopProvider = ({ children }) => {
 
     // Load cart to local storage
     useEffect(() => {
-        localStorage.setItem('petzcare_cart', JSON.stringify(cart));
+        localStorage.setItem('petzkare_cart', JSON.stringify(cart));
     }, [cart]);
 
     // Load mock products

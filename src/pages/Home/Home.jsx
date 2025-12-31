@@ -55,9 +55,9 @@ const Home = () => {
 
             {/* Quick Shop Categories */}
             <section className="py-12 container mx-auto px-4">
-                <div className="text-center mb-8">
-                    <h2 className="text-3xl font-bold text-dark mb-2">Click &rarr; Cart &rarr; Done!</h2>
-                    <p className="text-gray-500">Quick add-to-carts for quick delivery</p>
+                <div className="text-center mb-10">
+                    <h2 className="text-3xl font-bold text-dark mb-4">Shop by Category</h2>
+                    <p className="text-gray-500 max-w-2xl mx-auto">Explore our wide range of premium products for your furry friends.</p>
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -97,22 +97,27 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                         {products.filter(p => p.tags.includes('Winter')).slice(0, 4).map(product => (
-                            <Card key={product.id} className="group bg-white">
+                            <Card key={product.id} className="group bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all duration-300 border border-white/50">
                                 <div className="relative aspect-square overflow-hidden rounded-t-2xl">
                                     <img
                                         src={product.image}
                                         alt={product.name}
                                         className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
                                     />
-                                    <span className="absolute top-2 left-2 bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                                    <span className="absolute top-2 left-2 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
                                         Winter Special
                                     </span>
                                 </div>
-                                <div className="p-4 text-center">
-                                    <h3 className="font-bold text-dark mb-1 text-sm">{product.name}</h3>
-                                    <p className="text-primary font-bold">{formatCurrency(product.price)}</p>
+                                <div className="p-4">
+                                    <h3 className="font-bold text-dark mb-1 text-sm line-clamp-1">{product.name}</h3>
+                                    <div className="flex justify-between items-center mt-2">
+                                        <p className="text-blue-600 font-bold text-lg">{formatCurrency(product.price)}</p>
+                                        <div className="w-8 h-8 rounded-full bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors">
+                                            →
+                                        </div>
+                                    </div>
                                 </div>
                             </Card>
                         ))}

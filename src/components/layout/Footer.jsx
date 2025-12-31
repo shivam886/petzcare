@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="bg-white border-t border-gray-100 py-12 mt-auto">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
-                    <h3 className="text-2xl font-bold text-primary mb-4 font-sans">PetzCare</h3>
+                    <h3 className="text-2xl font-bold text-primary mb-4 font-sans">PetzKare</h3>
                     <p className="text-gray-500 text-sm">Healthy Food. Happy Pets.<br />Premium nutrition for your furry friends.</p>
                 </div>
 
@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container mx-auto px-4 border-t border-gray-100 mt-8 pt-8 text-center text-sm text-gray-400">
-                &copy; {new Date().getFullYear()} PetzCare. All rights reserved.
+                &copy; {new Date().getFullYear()} PetzKare. All rights reserved.
             </div>
         </footer>
     );

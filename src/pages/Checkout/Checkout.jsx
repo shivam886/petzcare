@@ -172,7 +172,7 @@ const Checkout = () => {
                             </Button>
 
                             <p className="text-xs text-center text-gray-400 mt-4">
-                                Secure Encypted Payment
+                                Secure Encrypted Payment
                             </p>
                         </div>
                     </div>
