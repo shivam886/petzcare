@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useShop } from '../../context/ShopContext';
-import { ShoppingCart, Menu, X, Heart, User } from 'lucide-react';
+import { ShoppingCart, Menu, X, Search, PawPrint } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../../assets/petzkare-logo.png';
 
 const Navbar = () => {
     const { cartCount, openCart } = useShop();
@@ -12,7 +13,7 @@ const Navbar = () => {
         <nav className="bg-white shadow-sm sticky top-0 z-50 py-3">
             <div className="container mx-auto px-4 flex justify-between items-center">
                 <Link to="/" className="flex items-center gap-2">
-                    <img src="/src/assets/petzkare-logo.png" alt="PetzKare Logo" className="h-10 w-auto" />
+                    <img src={logo} alt="PetzKare Logo" className="h-10 w-auto" />
                 </Link>
 
                 {/* Desktop Nav */}
