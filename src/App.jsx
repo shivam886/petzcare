@@ -31,7 +31,7 @@ const AppContent = () => {
 function App() {
   return (
     <ShopProvider>
-      <Router basename={import.meta.env.BASE_URL}>
+      <Router basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
         <AppContent />
       </Router>
     </ShopProvider>
