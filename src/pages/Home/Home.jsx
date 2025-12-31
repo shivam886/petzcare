@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link, useNavigate } from 'react-router-dom';
 import Button from '../../components/common/Button';
 import { useShop } from '../../context/ShopContext';
 import Card from '../../components/common/Card';
@@ -7,6 +8,7 @@ import { formatCurrency } from '../../utils/formatCurrency';
 
 const Home = () => {
     const { products } = useShop();
+    const navigate = useNavigate();
     const featuredProducts = products.slice(0, 4);
 
     return (
@@ -29,8 +31,8 @@ const Home = () => {
                             Give your furry friends the nutrition they deserve with our premium, organic, and scientifically balanced pet food.
                         </p>
                         <div className="flex gap-4">
-                            <Button onClick={() => window.location.href = '/shop'}>Shop Now</Button>
-                            <Button variant="outline" onClick={() => window.location.href = '/about'}>Learn More</Button>
+                            <Button onClick={() => navigate('/shop')}>Shop Now</Button>
+                            <Button variant="outline" onClick={() => navigate('/about')}>Learn More</Button>
                         </div>
                     </motion.div>
 
@@ -72,7 +74,7 @@ const Home = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex justify-between items-end mb-12">
                         <h2 className="text-3xl font-bold">Featured Products</h2>
-                        <a href="/shop" className="text-primary font-bold hover:underline">View All</a>
+                        <Link to="/shop" className="text-primary font-bold hover:underline">View All</Link>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
