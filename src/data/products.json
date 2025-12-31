@@ -160,5 +160,111 @@
             "Premium"
         ],
         "brand": "Farmina"
+    },
+    {
+        "id": 13,
+        "name": "Taste of the Wild High Prairie - Bison & Venison",
+        "price": 3200,
+        "category": "dog",
+        "image": "https://images.unsplash.com/photo-1596272875729-ed2ff7d6d9c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.9,
+        "reviews": 890,
+        "description": "Grain-free formula with roasted bison and roasted venison for a unique taste.",
+        "tags": [
+            "Premium",
+            "Grain Free"
+        ],
+        "brand": "Taste of the Wild"
+    },
+    {
+        "id": 14,
+        "name": "Orijen Original Cat Food",
+        "price": 4500,
+        "category": "cat",
+        "image": "https://images.unsplash.com/photo-1583336663277-620dc7f1d7bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 5.0,
+        "reviews": 420,
+        "description": "Biologically appropriate fresh chicken, turkey, nesting eggs and wild-caught fish.",
+        "tags": [
+            "Ultra Premium"
+        ],
+        "brand": "Orijen"
+    },
+    {
+        "id": 15,
+        "name": "Zupreem FruitBlend Flavor for Medium Birds",
+        "price": 1200,
+        "category": "bird",
+        "image": "https://images.unsplash.com/photo-1552728089-57bdde30ebd1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.6,
+        "reviews": 150,
+        "description": "Nutrally balanced diet with fruit flavors for Cockatiels, Lovebirds and Conures.",
+        "tags": [],
+        "brand": "Zupreem"
+    },
+    {
+        "id": 16,
+        "name": "Kong Classic Dog Toy",
+        "price": 899,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1599140849279-1014532882fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.8,
+        "reviews": 5500,
+        "description": "The gold standard of dog toys. Ultra-durable rubber formula for average chewers.",
+        "tags": [
+            "Best Seller",
+            "Durable"
+        ],
+        "brand": "Kong"
+    },
+    {
+        "id": 17,
+        "name": "Cat Tree Tower Condo",
+        "price": 3500,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1545249390-6bdfa286032f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.7,
+        "reviews": 340,
+        "description": "Multi-level cat tree with scratching posts and plush perches.",
+        "tags": [],
+        "brand": "AmazonBasics"
+    },
+    {
+        "id": 18,
+        "name": "Acana Singles - Grass-Fed Lamb",
+        "price": 2800,
+        "category": "dog",
+        "image": "https://images.unsplash.com/photo-1626071466175-9689269d95c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.7,
+        "reviews": 600,
+        "description": "Limited ingredient diet featuring 50% lamb. Perfect for diet-sensitive dogs.",
+        "tags": [
+            "Limited Ingredient"
+        ],
+        "brand": "Acana"
+    },
+    {
+        "id": 19,
+        "name": "Trixie Dog Activity Strateg y Game",
+        "price": 1500,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1546487103-6058e578a484?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.4,
+        "reviews": 230,
+        "description": "Interactive puzzle toy to challenge your dog's mind.",
+        "tags": [],
+        "brand": "Trixie"
+    },
+    {
+        "id": 20,
+        "name": "Flexi New Classic Retractable Leash",
+        "price": 1100,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1601758177266-bc599de87707?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4.5,
+        "reviews": 1800,
+        "description": "Freedom for your dog, control for you. Tape leash 5m.",
+        "tags": [],
+        "brand": "Flexi"
     }
 ]

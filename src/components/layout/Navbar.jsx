@@ -25,7 +25,7 @@ const Navbar = () => {
 
                 {/* Icons */}
                 <div className="flex items-center gap-4">
-                    <button className="text-dark hover:text-primary hidden sm:block"><User size={24} /></button>
+                    <Link to="/login" className="text-dark hover:text-primary hidden sm:block"><User size={24} /></Link>
                     <button className="text-dark hover:text-primary hidden sm:block"><Heart size={24} /></button>
 
                     <button
