@@ -4,9 +4,11 @@ import { X, Trash2, Plus, Minus, ShoppingBag } from 'lucide-react';
 import { useShop } from '../../context/ShopContext';
 import { formatCurrency } from '../../utils/formatCurrency';
 import Button from '../common/Button';
+import { useNavigate } from 'react-router-dom';
 
 const CartDrawer = ({ isOpen, onClose }) => {
     const { cart, removeFromCart, updateQuantity, cartTotal, clearCart } = useShop();
+    const navigate = useNavigate();
 
     return (
         <AnimatePresence>
@@ -100,7 +102,15 @@ const CartDrawer = ({ isOpen, onClose }) => {
                                     <span className="text-xl font-bold text-dark">{formatCurrency(cartTotal)}</span>
                                 </div>
                                 <div className="flex flex-col gap-3">
-                                    <Button className="w-full py-3 text-lg shadow-lg">Checkout</Button>
+                                    <Button
+                                        onClick={() => {
+                                            onClose();
+                                            navigate('/checkout');
+                                        }}
+                                        className="w-full py-3 text-lg shadow-lg"
+                                    >
+                                        Proceed to Checkout
+                                    </Button>
                                     <button
                                         onClick={clearCart}
                                         className="text-xs text-center text-gray-500 hover:text-red-500 underline"

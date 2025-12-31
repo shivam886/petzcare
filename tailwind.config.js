@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -7,15 +6,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#55C57A",
-        secondary: "#F0F8FF",
-        accent: "#F4E06D",
-        neutral: "#F7F7F7",
-        dark: "#333333",
+        primary: "#FF6D1F", // HUFT Orange
+        secondary: "#FFF5F0", // Light Orange/Cream background
+        accent: "#E25822", // Darker orange for hover
+        neutral: "#F9FAFB",
+        dark: "#2A2A2A",
       },
       fontFamily: {
-        sans: ['Poppins', 'Inter', 'sans-serif'],
+        sans: ['Rubik', 'system-ui', 'sans-serif'],
       },
+      boxShadow: {
+        'card': '0 4px 12px rgba(0, 0, 0, 0.08)',
+      }
     },
   },
   plugins: [],

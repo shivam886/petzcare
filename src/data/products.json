@@ -1,270 +1,141 @@
 [
     {
         "id": 1,
-        "name": "Pedigree Adult Dry Dog Food - Chicken & Vegetables",
-        "price": 2899,
-        "category": "dog",
-        "image": "https://images.unsplash.com/photo-1589924691195-41432c84c161?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "name": "Meowsi by HUFT Chicken Mousse Kitten Wet Food",
+        "price": 99,
+        "category": "cat",
+        "image": "https://headsupfortails.com/cdn/shop/files/2_2_996630d5-a59b-4ea9-bd95-82290aa03dd8.jpg?v=1757396542&width=533",
         "rating": 4.8,
-        "reviews": 3240,
-        "description": "Complete and balanced meal for adult dogs. Contains essential nutrients for healthy skin and coat.",
+        "reviews": 120,
+        "description": "Delicious chicken mousse for kittens. High protein for growth.",
         "tags": [
+            "New",
             "Best Seller"
         ],
-        "brand": "Pedigree"
+        "brand": "HUFT"
     },
     {
         "id": 2,
-        "name": "Whiskas Adult Dry Cat Food - Ocean Fish",
-        "price": 440,
+        "name": "NutriMeow Tuna In Jelly Wet Food For Kitten",
+        "price": 65,
         "category": "cat",
-        "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.6,
-        "reviews": 1890,
-        "description": "Crunchy chunks packed with real fish flavor. Provides 41 essential nutrients for cats.",
+        "image": "https://headsupfortails.com/cdn/shop/files/TunaInJellyKitten.jpg?v=1757396306&width=533",
+        "rating": 4.5,
+        "reviews": 85,
+        "description": "Tuna in jelly wet food, rich in Omega 3 and 6.",
+        "tags": [],
+        "brand": "NutriMeow"
+    },
+    {
+        "id": 3,
+        "name": "Whiskas Adult Mackerel Flavour Dry Cat Food",
+        "price": 1853,
+        "category": "cat",
+        "image": "https://headsupfortails.com/cdn/shop/files/8853301002400_2.jpg?v=1757399307&width=533",
+        "rating": 4.7,
+        "reviews": 3200,
+        "description": "Complete nutrition for adult cats with real mackerel functionality.",
         "tags": [
-            "Best Seller"
+            "Best Value"
         ],
         "brand": "Whiskas"
     },
     {
-        "id": 3,
-        "name": "Royal Canin Mini Adult",
-        "price": 850,
-        "category": "dog",
-        "image": "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.9,
-        "reviews": 560,
-        "description": "Tailor-made nutrition for small breed dogs. Supports energy needs and maintains ideal weight.",
-        "tags": [
-            "Premium"
-        ],
-        "brand": "Royal Canin"
-    },
-    {
         "id": 4,
-        "name": "Drools Chicken and Egg Adult Dog Food",
-        "price": 699,
-        "category": "dog",
-        "image": "https://images.unsplash.com/photo-1608408843596-b311965b7237?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.5,
-        "reviews": 4500,
-        "description": "Real chicken and egg formula for muscle maintenance and good digestion.",
-        "tags": [
-            "Best Value"
-        ],
-        "brand": "Drools"
-    },
-    {
-        "id": 5,
-        "name": "Meat Up Calcium Chicken Bone",
-        "price": 299,
-        "category": "dog",
-        "image": "https://images.unsplash.com/photo-1582798358481-d199fb7347bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.3,
-        "reviews": 1200,
-        "description": "Delicious calcium bones for strong teeth and gums.",
-        "tags": [
-            "Treats"
-        ],
-        "brand": "Meat Up"
-    },
-    {
-        "id": 6,
-        "name": "Sheba Rich Premium Cat Food - Fish Mix",
-        "price": 60,
+        "name": "Sheba Rich Premium Tuna Pumpkin & Carrot In Gravy",
+        "price": 280,
         "category": "cat",
-        "image": "https://images.unsplash.com/photo-1623366302587-bca852d60563?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.7,
-        "reviews": 850,
-        "description": "Delicate fish slices in gravy. A gourmet experience for your feline.",
+        "image": "https://headsupfortails.com/cdn/shop/files/8853301003223_1.jpg?v=1757398451&width=533",
+        "rating": 4.9,
+        "reviews": 450,
+        "description": "Gourmet fine flakes of tuna with pumpkin and carrot.",
         "tags": [
             "Premium"
         ],
         "brand": "Sheba"
     },
     {
-        "id": 7,
-        "name": "Boltz Bird Food for Budgies",
-        "price": 399,
-        "category": "bird",
-        "image": "https://images.unsplash.com/photo-1628190772091-c9eb13303666?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.4,
-        "reviews": 320,
-        "description": "Selected seeds mix for budgies. Promotes healthy feathers and digestion.",
-        "tags": [],
-        "brand": "Boltz"
-    },
-    {
-        "id": 8,
-        "name": "Bark Butler x Fofos Dog Toy",
-        "price": 495,
-        "category": "accessories",
-        "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.6,
+        "id": 5,
+        "name": "Hearty Chicken, Duck & Pumpkin Oven-Baked Dry Food",
+        "price": 250,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/250g_1_01bc9327-7a06-4885-8976-f808398198dc.jpg?v=1765955037&width=533",
+        "rating": 4.8,
         "reviews": 150,
-        "description": "Durable plush toy with squeaker. Perfect for light chewers.",
+        "description": "Oven-baked for better nutrient retention. Grain-free goodness.",
         "tags": [
-            "New"
+            "Grain Free",
+            "HUFT Exclusive"
         ],
-        "brand": "Bark Butler"
+        "brand": "Hearty"
     },
     {
-        "id": 9,
-        "name": "Himalaya Healthy Pet Food - Puppy",
-        "price": 420,
+        "id": 6,
+        "name": "Orijen Original Grain Free Dry Dog Food",
+        "price": 699,
         "category": "dog",
-        "image": "https://images.unsplash.com/photo-1597843786271-105126d00ade?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.5,
-        "reviews": 2100,
-        "description": "Ayurvedic formula for growing puppies. Supports immunity and metabolism.",
-        "tags": [],
-        "brand": "Himalaya"
-    },
-    {
-        "id": 10,
-        "name": "Purepet Mackerel Cat Food",
-        "price": 299,
-        "category": "cat",
-        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.2,
-        "reviews": 980,
-        "description": "Economical complete meal for cats. Mackerel flavor.",
-        "tags": [
-            "Best Value"
-        ],
-        "brand": "Purepet"
-    },
-    {
-        "id": 11,
-        "name": "Generic Metal Dog Bowl",
-        "price": 199,
-        "category": "accessories",
-        "image": "https://images.unsplash.com/photo-1585839077797-1755152a5583?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.1,
-        "reviews": 500,
-        "description": "Stainless steel non-tip food bowl.",
-        "tags": [],
-        "brand": "Generic"
-    },
-    {
-        "id": 12,
-        "name": "Farmina N&D Pumpkin Dog Food",
-        "price": 2400,
-        "category": "dog",
-        "image": "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.9,
-        "reviews": 120,
-        "description": "Grain-free premium nutrition with Lamb & Blueberry.",
-        "tags": [
-            "Premium"
-        ],
-        "brand": "Farmina"
-    },
-    {
-        "id": 13,
-        "name": "Taste of the Wild High Prairie - Bison & Venison",
-        "price": 3200,
-        "category": "dog",
-        "image": "https://images.unsplash.com/photo-1596272875729-ed2ff7d6d9c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.9,
-        "reviews": 890,
-        "description": "Grain-free formula with roasted bison and roasted venison for a unique taste.",
-        "tags": [
-            "Premium",
-            "Grain Free"
-        ],
-        "brand": "Taste of the Wild"
-    },
-    {
-        "id": 14,
-        "name": "Orijen Original Cat Food",
-        "price": 4500,
-        "category": "cat",
-        "image": "https://images.unsplash.com/photo-1583336663277-620dc7f1d7bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "image": "https://headsupfortails.com/cdn/shop/files/064992182175-5.jpg?v=1705915421&width=533",
         "rating": 5.0,
-        "reviews": 420,
-        "description": "Biologically appropriate fresh chicken, turkey, nesting eggs and wild-caught fish.",
+        "reviews": 980,
+        "description": "Biologically appropriate food with free-run chicken and turkey.",
         "tags": [
             "Ultra Premium"
         ],
         "brand": "Orijen"
     },
     {
-        "id": 15,
-        "name": "Zupreem FruitBlend Flavor for Medium Birds",
-        "price": 1200,
-        "category": "bird",
-        "image": "https://images.unsplash.com/photo-1552728089-57bdde30ebd1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.6,
-        "reviews": 150,
-        "description": "Nutrally balanced diet with fruit flavors for Cockatiels, Lovebirds and Conures.",
-        "tags": [],
-        "brand": "Zupreem"
-    },
-    {
-        "id": 16,
-        "name": "Kong Classic Dog Toy",
-        "price": 899,
-        "category": "accessories",
-        "image": "https://images.unsplash.com/photo-1599140849279-1014532882fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.8,
-        "reviews": 5500,
-        "description": "The gold standard of dog toys. Ultra-durable rubber formula for average chewers.",
-        "tags": [
-            "Best Seller",
-            "Durable"
-        ],
-        "brand": "Kong"
-    },
-    {
-        "id": 17,
-        "name": "Cat Tree Tower Condo",
-        "price": 3500,
-        "category": "accessories",
-        "image": "https://images.unsplash.com/photo-1545249390-6bdfa286032f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.7,
-        "reviews": 340,
-        "description": "Multi-level cat tree with scratching posts and plush perches.",
-        "tags": [],
-        "brand": "AmazonBasics"
-    },
-    {
-        "id": 18,
-        "name": "Acana Singles - Grass-Fed Lamb",
-        "price": 2800,
+        "id": 7,
+        "name": "NutriWag Pro Active Chicken & Vegetable (20 kg)",
+        "price": 5795,
         "category": "dog",
-        "image": "https://images.unsplash.com/photo-1626071466175-9689269d95c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.7,
-        "reviews": 600,
-        "description": "Limited ingredient diet featuring 50% lamb. Perfect for diet-sensitive dogs.",
+        "image": "https://headsupfortails.com/cdn/shop/files/Nutriwagpro-1copy.jpg?v=1762256256&width=533",
+        "rating": 4.6,
+        "reviews": 210,
+        "description": "High energy formula for active dogs. Bulk pack value.",
         "tags": [
-            "Limited Ingredient"
+            "Bulk"
         ],
-        "brand": "Acana"
+        "brand": "NutriWag"
     },
     {
-        "id": 19,
-        "name": "Trixie Dog Activity Strateg y Game",
-        "price": 1500,
-        "category": "accessories",
-        "image": "https://images.unsplash.com/photo-1546487103-6058e578a484?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.4,
-        "reviews": 230,
-        "description": "Interactive puzzle toy to challenge your dog's mind.",
+        "id": 8,
+        "name": "Hearty Lamb & Blueberry Oven-Baked Adult Dog Food",
+        "price": 270,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/250g_1_6019050e-f908-402b-9d4b-c25ab9d3d187.jpg?v=1757396496&width=533",
+        "rating": 4.7,
+        "reviews": 180,
+        "description": "Novel protein source with antioxidant-rich blueberries.",
         "tags": [],
-        "brand": "Trixie"
+        "brand": "Hearty"
     },
     {
-        "id": 20,
-        "name": "Flexi New Classic Retractable Leash",
-        "price": 1100,
+        "id": 9,
+        "name": "Sara's Wholesome Dehydrated Chicken Dog Treats",
+        "price": 350,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/products/ChickenJerky_Front.jpg?v=1646983754&width=533",
+        "rating": 4.9,
+        "reviews": 2500,
+        "description": "100% natural dehydrated chicken jerky. No preservatives.",
+        "tags": [
+            "Treats",
+            "Natural"
+        ],
+        "brand": "Sara's Treats"
+    },
+    {
+        "id": 10,
+        "name": "HUFT Orthopedic Dog Bed",
+        "price": 4500,
         "category": "accessories",
-        "image": "https://images.unsplash.com/photo-1601758177266-bc599de87707?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        "rating": 4.5,
-        "reviews": 1800,
-        "description": "Freedom for your dog, control for you. Tape leash 5m.",
-        "tags": [],
-        "brand": "Flexi"
+        "image": "https://headsupfortails.com/cdn/shop/products/OrthopedicBedGrey.jpg?v=1624607891&width=533",
+        "rating": 4.8,
+        "reviews": 340,
+        "description": "Memory foam support for senior dogs or those with joint issues.",
+        "tags": [
+            "Comfort"
+        ],
+        "brand": "HUFT"
     }
 ]

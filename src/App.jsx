@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Shop from './pages/Shop/Shop';
 import Login from './pages/Auth/Login';
 import Signup from './pages/Auth/Signup';
+import Checkout from './pages/Checkout/Checkout';
 import CartDrawer from './components/cart/CartDrawer';
 
 const AppContent = () => {
@@ -21,6 +22,7 @@ const AppContent = () => {
           <Route path="/contact" element={<div className="container mx-auto px-4 py-12">Contact Us</div>} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </Layout>
       <CartDrawer isOpen={isCartOpen} onClose={closeCart} />
