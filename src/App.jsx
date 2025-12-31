@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import { ShopProvider, useShop } from './context/ShopContext';
 import Home from './pages/Home/Home';
@@ -30,14 +30,10 @@ const AppContent = () => {
   );
 };
 
-function App() {
-  return (
-    <ShopProvider>
-      <Router basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
-        <AppContent />
-      </Router>
-    </ShopProvider>
-  );
-}
+<ShopProvider>
+  <Router>
+    <AppContent />
+  </Router>
+</ShopProvider>
 
 export default App;

@@ -137,5 +137,124 @@
             "Comfort"
         ],
         "brand": "HUFT"
+    },
+    {
+        "id": 11,
+        "name": "HUFT Snuggle Up Dog Blanket - Navy Blue",
+        "price": 1499,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/NavyBlueBlanket.jpg?v=1700000001&width=533",
+        "rating": 4.9,
+        "reviews": 89,
+        "description": "Ultra-soft fleece blanket to keep your pet warm during winter.",
+        "tags": [
+            "Winter",
+            "Comfort"
+        ],
+        "brand": "HUFT"
+    },
+    {
+        "id": 12,
+        "name": "HUFT Reversible Winter Dog Jacket - Red",
+        "price": 2499,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/ReversibleJacketRed.jpg?v=1700000002&width=533",
+        "rating": 5.0,
+        "reviews": 156,
+        "description": "Stylish and warm reversible jacket for chilly walks.",
+        "tags": [
+            "Winter",
+            "Apparel"
+        ],
+        "brand": "HUFT"
+    },
+    {
+        "id": 13,
+        "name": "YIMT Dental Chews for Dogs (Pack of 7)",
+        "price": 399,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/DentalChews.jpg?v=1700000003&width=533",
+        "rating": 4.6,
+        "reviews": 430,
+        "description": "Daily specialty dental chews to reduce tartar and freshen breath.",
+        "tags": [
+            "Dental Care",
+            "Treats"
+        ],
+        "brand": "YIMT"
+    },
+    {
+        "id": 14,
+        "name": "Sara's Soft & Chewy Chicken Treats",
+        "price": 450,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/SoftChewsChicken.jpg?v=1700000004&width=533",
+        "rating": 4.8,
+        "reviews": 600,
+        "description": "Perfect training treats, soft on the gums and delicious.",
+        "tags": [
+            "Treats",
+            "Training"
+        ],
+        "brand": "Sara's Treats"
+    },
+    {
+        "id": 15,
+        "name": "Whiskas Wet Cat Food - Ocean Fish (Pack of 12)",
+        "price": 600,
+        "category": "cat",
+        "image": "https://headsupfortails.com/cdn/shop/files/WhiskasWetFood.jpg?v=1700000005&width=533",
+        "rating": 4.7,
+        "reviews": 890,
+        "description": "Complete and balanced wet food with ocean fish flavor.",
+        "tags": [
+            "Wet Food",
+            "Bulk"
+        ],
+        "brand": "Whiskas"
+    },
+    {
+        "id": 16,
+        "name": "HUFT Nylon Dog Collar - Geometric Print",
+        "price": 799,
+        "category": "accessories",
+        "image": "https://headsupfortails.com/cdn/shop/files/NylonCollarGeo.jpg?v=1700000006&width=533",
+        "rating": 4.5,
+        "reviews": 120,
+        "description": "Durable and stylish nylon collar, adjustable for perfect fit.",
+        "tags": [
+            "Walk Gear"
+        ],
+        "brand": "HUFT"
+    },
+    {
+        "id": 17,
+        "name": "HUFT Strong Rope Leash - Teal",
+        "price": 1299,
+        "category": "accessories",
+        "image": "https://headsupfortails.com/cdn/shop/files/RopeLeashTeal.jpg?v=1700000007&width=533",
+        "rating": 4.9,
+        "reviews": 75,
+        "description": "Heavy-duty rope leash for strong grip and control.",
+        "tags": [
+            "Walk Gear",
+            "Durable"
+        ],
+        "brand": "HUFT"
+    },
+    {
+        "id": 18,
+        "name": "Royal Canin Mini Adult Dry Dog Food",
+        "price": 2100,
+        "category": "dog",
+        "image": "https://headsupfortails.com/cdn/shop/files/RoyalCaninMini.jpg?v=1700000008&width=533",
+        "rating": 4.8,
+        "reviews": 2200,
+        "description": "Tailored nutrition for small breed adult dogs.",
+        "tags": [
+            "Best Seller",
+            "Premium"
+        ],
+        "brand": "Royal Canin"
     }
 ]

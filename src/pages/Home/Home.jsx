@@ -53,19 +53,70 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Categories */}
-            <section className="py-20 container mx-auto px-4">
-                <h2 className="text-3xl font-bold text-center mb-12">Shop by Category</h2>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    {['Dog', 'Cat', 'Bird', 'Accessories'].map((cat, idx) => (
-                        <Card key={idx} className="p-6 text-center cursor-pointer hover:border-primary group">
-                            <div className="w-20 h-20 bg-secondary rounded-full mx-auto mb-4 flex items-center justify-center text-4xl group-hover:bg-primary/20 transition-colors">
-                                {cat === 'Dog' ? '🐶' : cat === 'Cat' ? '🐱' : cat === 'Bird' ? '🐦' : '🐾'}
-                            </div>
-                            <h3 className="font-bold text-lg mb-1">{cat}</h3>
-                            <p className="text-sm text-gray-500">Explore Products</p>
-                        </Card>
+            {/* Quick Shop Categories */}
+            <section className="py-12 container mx-auto px-4">
+                <div className="text-center mb-8">
+                    <h2 className="text-3xl font-bold text-dark mb-2">Click &rarr; Cart &rarr; Done!</h2>
+                    <p className="text-gray-500">Quick add-to-carts for quick delivery</p>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                    {[
+                        { name: 'Dog Food', icon: '🐕', bg: 'bg-[#FFF4E6]', link: '/shop?category=dog' },
+                        { name: 'Cat Food', icon: '🐈', bg: 'bg-[#E6F4FF]', link: '/shop?category=cat' },
+                        { name: 'Dog Treats', icon: '🦴', bg: 'bg-[#FFF0F0]', link: '/shop?search=treats' },
+                        { name: 'Walk Gear', icon: '🦮', bg: 'bg-[#F0FFF4]', link: '/shop?search=walk' },
+                        { name: 'Cat Furniture', icon: '🏰', bg: 'bg-[#F3E6FF]', link: '/shop?search=furniture' },
+                        { name: 'Dog Toys', icon: '🎾', bg: 'bg-[#E6FFFA]', link: '/shop?search=toy' }
+                    ].map((cat, idx) => (
+                        <motion.div
+                            key={idx}
+                            whileHover={{ y: -5 }}
+                            className={`${cat.bg} rounded-2xl p-6 text-center cursor-pointer transition-shadow hover:shadow-lg`}
+                            onClick={() => navigate(cat.link)}
+                        >
+                            <div className="text-4xl mb-3">{cat.icon}</div>
+                            <h3 className="font-bold text-gray-800 text-sm">{cat.name}</h3>
+                        </motion.div>
                     ))}
+                </div>
+            </section>
+
+            {/* Winter Essentials Banner */}
+            <section className="py-16 bg-gradient-to-r from-blue-50 to-white">
+                <div className="container mx-auto px-4">
+                    <div className="flex flex-col md:flex-row items-center justify-between mb-12">
+                        <div className="max-w-xl">
+                            <span className="text-blue-500 font-bold tracking-wider text-sm uppercase mb-2 block">Season Special</span>
+                            <h2 className="text-4xl font-bold text-dark mb-4">For The Coldest Winter Yet...</h2>
+                            <p className="text-gray-600 text-lg mb-6">We have you covered (and cuddled) all season! Shop our exclusive range of winter wear and cozy bedding.</p>
+                            <Button onClick={() => navigate('/shop?search=winter')}>Shop Winter Collection</Button>
+                        </div>
+                        <div className="hidden md:flex gap-4">
+                            {/* Decorative circles or mini-gallery could go here, for now just spacing */}
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                        {products.filter(p => p.tags.includes('Winter')).slice(0, 4).map(product => (
+                            <Card key={product.id} className="group bg-white">
+                                <div className="relative aspect-square overflow-hidden rounded-t-2xl">
+                                    <img
+                                        src={product.image}
+                                        alt={product.name}
+                                        className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
+                                    />
+                                    <span className="absolute top-2 left-2 bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                                        Winter Special
+                                    </span>
+                                </div>
+                                <div className="p-4 text-center">
+                                    <h3 className="font-bold text-dark mb-1 text-sm">{product.name}</h3>
+                                    <p className="text-primary font-bold">{formatCurrency(product.price)}</p>
+                                </div>
+                            </Card>
+                        ))}
+                    </div>
                 </div>
             </section>
 

@@ -7,12 +7,15 @@ import Button from '../../components/common/Button';
 import Input from '../../components/common/Input';
 import { motion, AnimatePresence } from 'framer-motion';
 
+import { useSearchParams } from 'react-router-dom';
+
 const Shop = () => {
     const { products, addToCart, openCart } = useShop();
+    const [searchParams] = useSearchParams();
 
-    // State
-    const [search, setSearch] = useState('');
-    const [selectedCategory, setSelectedCategory] = useState('All');
+    // State initialized from URL params
+    const [search, setSearch] = useState(searchParams.get('search') || '');
+    const [selectedCategory, setSelectedCategory] = useState(searchParams.get('category') || 'All');
     const [priceRange, setPriceRange] = useState([0, 5000]);
     const [sortBy, setSortBy] = useState('popular');
     const [isFilterOpen, setIsFilterOpen] = useState(false);
@@ -20,6 +23,14 @@ const Shop = () => {
     // Derived Data
     const categories = ['All', ...new Set(products.map(p => p.category))];
     const maxPrice = Math.max(...products.map(p => p.price), 5000);
+
+    // Sync with URL params
+    React.useEffect(() => {
+        const query = searchParams.get('search');
+        const cat = searchParams.get('category');
+        if (query !== null) setSearch(query);
+        if (cat !== null) setSelectedCategory(cat);
+    }, [searchParams]);
 
     const filteredProducts = useMemo(() => {
         return products.filter(product => {
