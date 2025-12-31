@@ -30,10 +30,14 @@ const AppContent = () => {
   );
 };
 
-<ShopProvider>
-  <Router>
-    <AppContent />
-  </Router>
-</ShopProvider>
+function App() {
+  return (
+    <ShopProvider>
+      <Router>
+        <AppContent />
+      </Router>
+    </ShopProvider>
+  );
+}
 
 export default App;
