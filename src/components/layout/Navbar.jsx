@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useShop } from '../../context/ShopContext';
-import { ShoppingCart, Menu, X, Search, PawPrint } from 'lucide-react';
+import { ShoppingCart, Menu, X, Search, PawPrint, User, Heart } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import logo from '../../assets/petzkare-logo.png';
 
