@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import HeroImageScroller from '../../components/home/HeroImageScroller';
+
 import { Link, useNavigate } from 'react-router-dom';
 import Button from '../../components/common/Button';
 import { useShop } from '../../context/ShopContext';
@@ -42,13 +44,7 @@ const Home = () => {
                         transition={{ duration: 0.8 }}
                         className="relative"
                     >
-                        {/* Placeholder for hero image */}
-                        <div className="bg-primary/20 rounded-full w-[400px] h-[400px] absolute -z-10 blur-3xl right-0 top-0"></div>
-                        <img
-                            src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                            alt="Happy Dog"
-                            className="rounded-3xl shadow-2xl relative z-10 w-full max-w-md mx-auto"
-                        />
+                        <HeroImageScroller />
                     </motion.div>
                 </div>
             </section>
