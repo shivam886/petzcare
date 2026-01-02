@@ -1,12 +1,18 @@
 import React from 'react';
+import winterDogImage from '../../assets/images/winter-dog-scarf.jpg';
 import { motion } from 'framer-motion';
 import HeroImageScroller from '../../components/home/HeroImageScroller';
+import FloatingTags from '../../components/home/FloatingTags';
+import TrustIndicators from '../../components/home/TrustIndicators';
+import PersonalizationHook from '../../components/home/PersonalizationHook';
 
 import { Link, useNavigate } from 'react-router-dom';
 import Button from '../../components/common/Button';
+
 import { useShop } from '../../context/ShopContext';
 import Card from '../../components/common/Card';
 import { formatCurrency } from '../../utils/formatCurrency';
+import SaleBanner from '../../components/home/SaleBanner';
 
 const Home = () => {
     const { products } = useShop();
@@ -18,25 +24,76 @@ const Home = () => {
             {/* Hero Section */}
             <section className="bg-secondary/50 pt-20 pb-32 relative overflow-hidden">
                 <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center relative z-10">
-                    <motion.div
-                        initial={{ opacity: 0, x: -50 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.6 }}
-                    >
-                        <span className="bg-white text-primary px-4 py-1 rounded-full text-sm font-bold shadow-sm mb-4 inline-block">
-                            Premium Pet Nutrition
-                        </span>
-                        <h1 className="text-5xl md:text-6xl font-bold text-dark mb-6 leading-tight">
-                            Healthy Food.<br /> <span className="text-primary">Happy Pets.</span>
-                        </h1>
-                        <p className="text-lg text-gray-600 mb-8 max-w-lg">
-                            Give your furry friends the nutrition they deserve with our premium, organic, and scientifically balanced pet food.
-                        </p>
-                        <div className="flex gap-4">
-                            <Button onClick={() => navigate('/shop')}>Shop Now</Button>
-                            <Button variant="outline" onClick={() => navigate('/about')}>Learn More</Button>
+                    <div className="z-10">
+                        <FloatingTags />
+
+                        <motion.h1
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, ease: "easeOut" }}
+                            className="text-5xl md:text-7xl font-bold text-dark mb-6 leading-tight"
+                        >
+                            <span className="block">Real Nutrition.</span>
+                            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-600">
+                                Real Love.
+                            </span>
+                        </motion.h1>
+
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.4, staggerChildren: 0.2 }}
+                            className="text-lg text-gray-600 mb-8 max-w-lg space-y-2"
+                        >
+                            <motion.p
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ delay: 0.5 }}
+                                className="flex items-center gap-2"
+                            >
+                                ✨ Thoughtfully crafted pet food
+                            </motion.p>
+                            <motion.p
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ delay: 0.7 }}
+                                className="flex items-center gap-2"
+                            >
+                                🌿 Made with science, care, and clean ingredients
+                            </motion.p>
+                            <motion.p
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ delay: 0.9 }}
+                                className="flex items-center gap-2"
+                            >
+                                ❤️ Designed for everyday health & happiness
+                            </motion.p>
+                        </motion.div>
+
+                        <TrustIndicators />
+
+                        <div className="flex flex-wrap gap-4">
+                            <motion.button
+                                whileHover={{ scale: 1.05, boxShadow: "0px 5px 15px rgba(37, 99, 235, 0.2)" }}
+                                whileTap={{ scale: 0.95 }}
+                                onClick={() => navigate('/shop')}
+                                className="bg-primary hover:bg-blue-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all"
+                            >
+                                Find the Right Food ➝
+                            </motion.button>
+                            <motion.button
+                                whileHover={{ scale: 1.05, backgroundColor: "#F3F4F6" }}
+                                whileTap={{ scale: 0.95 }}
+                                onClick={() => navigate('/about')}
+                                className="bg-white border-2 border-gray-200 text-gray-700 px-8 py-4 rounded-full font-bold text-lg hover:border-gray-300 transition-all"
+                            >
+                                Why PetzCare?
+                            </motion.button>
                         </div>
-                    </motion.div>
+
+                        <PersonalizationHook />
+                    </div>
 
                     <motion.div
                         initial={{ opacity: 0, scale: 0.8 }}
@@ -48,6 +105,8 @@ const Home = () => {
                     </motion.div>
                 </div>
             </section>
+
+            <SaleBanner />
 
             {/* Quick Shop Categories */}
             <section className="py-12 container mx-auto px-4">
@@ -79,45 +138,106 @@ const Home = () => {
             </section>
 
             {/* Winter Essentials Banner */}
-            <section className="py-16 bg-gradient-to-r from-blue-50 to-white">
-                <div className="container mx-auto px-4">
-                    <div className="flex flex-col md:flex-row items-center justify-between mb-12">
-                        <div className="max-w-xl">
-                            <span className="text-blue-500 font-bold tracking-wider text-sm uppercase mb-2 block">Season Special</span>
-                            <h2 className="text-4xl font-bold text-dark mb-4">For The Coldest Winter Yet...</h2>
-                            <p className="text-gray-600 text-lg mb-6">We have you covered (and cuddled) all season! Shop our exclusive range of winter wear and cozy bedding.</p>
-                            <Button onClick={() => navigate('/shop?search=winter')}>Shop Winter Collection</Button>
+            {/* Winter Essentials Banner */}
+            {/* Winter Essentials Banner - Redesigned */}
+            <section className="py-16 container mx-auto px-4">
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8 }}
+                    className="relative overflow-hidden rounded-[2.5rem] bg-[#fab943] shadow-2xl min-h-[450px] flex items-center md:items-end justify-between group"
+                >
+                    {/* Decorative Elements */}
+                    <div className="absolute top-0 left-0 w-96 h-96 bg-white/20 rounded-full blur-[100px] -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+                    <div className="absolute bottom-0 right-1/2 w-80 h-80 bg-orange-500/10 rounded-full blur-[80px] pointer-events-none"></div>
+
+                    <div className="container mx-auto px-8 md:px-16 flex flex-col md:flex-row items-center relative z-10 h-full">
+                        {/* Text Content */}
+                        <div className="w-full md:w-1/2 text-center md:text-left py-12 md:py-16">
+                            <motion.div
+                                initial={{ opacity: 0, x: -20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.3 }}
+                            >
+                                <span className="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-white/90 backdrop-blur-sm border border-white/40 text-[#5D3A1A] text-xs font-bold uppercase tracking-wider mb-6 shadow-sm">
+                                    ❄️ Season Special
+                                </span>
+                            </motion.div>
+
+                            <motion.h2
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.4 }}
+                                className="text-4xl md:text-6xl font-black text-[#4A2E15] mb-6 leading-[1.1]"
+                            >
+                                <span className="text-[#FF6D1F]">For the Coldest</span> <br />
+                                <span className="text-white drop-shadow-md">Winter Days.</span>
+                            </motion.h2>
+
+                            <motion.button
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                onClick={() => navigate('/shop?search=winter')}
+                                className="bg-[#FF6D1F] text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl hover:bg-[#E25822] transition-all flex items-center gap-3 mx-auto md:mx-0"
+                            >
+                                Shop Winter Collection
+                                <span className="group-hover:translate-x-1 transition-transform">→</span>
+                            </motion.button>
                         </div>
-                        <div className="hidden md:flex gap-4">
-                            {/* Decorative circles or mini-gallery could go here, for now just spacing */}
+
+                        {/* Image */}
+                        <div className="w-full md:w-1/2 h-full flex justify-center md:justify-end items-end md:absolute md:right-0 md:bottom-0 pointer-events-none">
+                            <motion.img
+                                initial={{ opacity: 0, scale: 0.9, y: 50 }}
+                                whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.4, duration: 0.8 }}
+                                src={winterDogImage}
+                                alt="Happy dog wearing a scarf"
+                                className="w-[85%] md:w-[650px] object-contain drop-shadow-2xl relative translate-y-4 md:translate-y-8"
+                            />
                         </div>
                     </div>
+                </motion.div>
+            </section>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                        {products.filter(p => p.tags.includes('Winter')).slice(0, 4).map(product => (
-                            <Card key={product.id} className="group bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all duration-300 border border-white/50">
-                                <div className="relative aspect-square overflow-hidden rounded-t-2xl">
+            {/* Winter Product Grid */}
+            <section className="py-12 container mx-auto px-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    {products.filter(p => p.tags.includes('Winter')).slice(0, 4).map((product, index) => (
+                        <Card key={product.id} className="group bg-white/60 backdrop-blur-md hover:bg-white hover:shadow-2xl transition-all duration-500 border border-white/50 overflow-hidden">
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.2 + (index * 0.1) }}
+                            >
+                                <div className="relative aspect-square overflow-hidden rounded-2xl m-3 bg-gray-100">
                                     <img
                                         src={product.image}
                                         alt={product.name}
-                                        className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
+                                        className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"
                                     />
-                                    <span className="absolute top-2 left-2 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
-                                        Winter Special
+                                    <span className="absolute top-3 left-3 bg-white/90 backdrop-blur text-blue-600 text-xs font-bold px-3 py-1.5 rounded-full shadow-sm flex items-center gap-1">
+                                        ❄️ Winter Special
                                     </span>
                                 </div>
-                                <div className="p-4">
-                                    <h3 className="font-bold text-dark mb-1 text-sm line-clamp-1">{product.name}</h3>
-                                    <div className="flex justify-between items-center mt-2">
-                                        <p className="text-blue-600 font-bold text-lg">{formatCurrency(product.price)}</p>
-                                        <div className="w-8 h-8 rounded-full bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors">
-                                            →
+                                <div className="px-5 pb-5 pt-2">
+                                    <p className="text-xs text-blue-400 font-bold tracking-wide uppercase mb-1">{product.category}</p>
+                                    <h3 className="font-bold text-dark text-lg mb-2 line-clamp-1 group-hover:text-blue-600 transition-colors">{product.name}</h3>
+                                    <div className="flex justify-between items-center">
+                                        <p className="text-gray-900 font-extrabold text-xl">{formatCurrency(product.price)}</p>
+                                        <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all transform group-hover:scale-110 shadow-sm">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
                                         </div>
                                     </div>
                                 </div>
-                            </Card>
-                        ))}
-                    </div>
+                            </motion.div>
+                        </Card>
+                    ))}
                 </div>
             </section>
 
